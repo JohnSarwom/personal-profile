@@ -73,13 +73,13 @@ const About = () => {
             
             <div className="space-y-6 text-white/70 text-lg font-light leading-relaxed">
                <p>
-                  I am a software engineer with a <span className="text-white font-medium">Bachelor's Degree in Geographic Information Science</span>, possessing a strong foundation in geographic data analysis, data management, and reporting. With extensive experience in <span className="text-white font-medium">GPS operations, drone piloting</span>, and advanced GIS tools for spatial analysis, I have successfully bridged the gap between spatial science and modern software engineering.
+                  I hold a <span className="text-white font-medium">Bachelor's Degree in Geographic Information Science</span>, which provided me with a strong foundation in geographic data analysis, data management, and reporting. With extensive experience in <span className="text-white font-medium">GPS operations, drone piloting</span>, and advanced GIS tools for spatial analysis, I have successfully bridged the gap between spatial science and the digital world.
                </p>
                <p>
-                  I specialize in designing and building <span className="text-white font-medium">web applications, mobile platforms, business automation systems, and AI-integrated workflows</span>. My expertise includes leveraging cloud ecosystems like <span className="text-white font-medium">Google Workspace, Google Cloud Platform, and Microsoft Azure</span> to streamline operations and solve real-world problems.
+                  Driven by a passion for technology, I have expanded my expertise through <span className="text-white font-medium">self-taught software development</span>. I now specialize in designing and building <span className="text-white font-medium">web applications, mobile platforms, business automation systems, and AI-integrated workflows</span> by leveraging cloud ecosystems like Google Cloud Platform and Microsoft Azure.
                </p>
                <p>
-                  My technical background also includes <span className="text-white font-medium">computer hardware, networking, and advanced troubleshooting</span>, enabling me to deliver end-to-end solutions — from robust infrastructure to seamless application deployment. Driven by a passion for efficiency, I thrive in collaborative environments where I can leverage my leadership training and proven work ethic to build remarkable technology.
+                  My technical background also includes <span className="text-white font-medium">computer hardware, networking, and advanced troubleshooting</span>, enabling me to deliver end-to-end solutions — from robust infrastructure to seamless application deployment. With leadership training and a proven work ethic, I thrive in collaborative environments where I can solve real-world problems through innovation.
                </p>
             </div>
 

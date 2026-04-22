@@ -61,7 +61,7 @@ const Hero = () => {
             </h1>
 
             <p className="text-white/60 text-sm font-bold uppercase tracking-[0.2em] mb-4">
-               Full-Stack Developer · AI & Automation · GIS Engineer
+               GIS Professional · Self-Taught Developer · AI & Automation
             </p>
 
             <p className="text-white/40 text-lg font-light leading-relaxed mb-10 max-w-lg">
