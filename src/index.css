@@ -238,7 +238,7 @@ body::before {
 .group:hover .group-hover\:text-\[var\(--primary\)\] { color: var(--primary); }
 .group:hover .group-hover\:translate-x-1 { transform: translateX(4px); }
 
-.text-[10px] { font-size: 10px; }
+.text-\[10px\] { font-size: 10px; }
 .text-xs { font-size: 0.75rem; }
 .text-sm { font-size: 0.875rem; }
 .text-lg { font-size: 1.125rem; }
