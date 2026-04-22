@@ -28,7 +28,7 @@ const Navbar = () => {
   });
 
   useEffect(() => {
-    const sections = ['hero', 'about', 'experience', 'skills', 'projects', 'contact'];
+    const sections = ['hero', 'about', 'experience', 'skills', 'projects', 'websites', 'contact'];
     
     const observer = new IntersectionObserver(
       (entries) => {
@@ -62,6 +62,7 @@ const Navbar = () => {
     { name: 'Experience', id: 'experience' },
     { name: 'Skills', id: 'skills' },
     { name: 'Projects', id: 'projects' },
+    { name: 'Websites', id: 'websites' },
     { name: 'Contact', id: 'contact' }
   ];
 

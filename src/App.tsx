@@ -10,6 +10,7 @@ const About = lazy(() => import('./components/About'));
 const WorkHistory = lazy(() => import('./components/WorkHistory'));
 const Skills = lazy(() => import('./components/Skills'));
 const Projects = lazy(() => import('./components/Projects'));
+const LiveWebsites = lazy(() => import('./components/LiveWebsites'));
 const Contact = lazy(() => import('./components/Contact'));
 const Footer = lazy(() => import('./components/Footer'));
 
@@ -45,6 +46,7 @@ function App() {
           <WorkHistory />
           <Skills />
           <Projects />
+          <LiveWebsites />
           <Contact />
         </Suspense>
       </main>
