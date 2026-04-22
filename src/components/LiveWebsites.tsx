@@ -5,7 +5,7 @@ const liveSites = [
   {
     title: 'Securities Commission of PNG',
     url: 'https://www.scpng.gov.pg/',
-    category: 'Government',
+    category: 'Official Website',
     desc: 'The active regulator for capital markets in Papua New Guinea. A high-security, official government platform.',
     icon: ShieldCheck,
   },
@@ -19,22 +19,22 @@ const liveSites = [
   {
     title: 'Smart Track PNG',
     url: 'https://www.smarttrackpng.com/',
-    category: 'System',
-    desc: 'An enterprise-grade tracking and management system platform with secure login and operational workflows.',
+    category: 'Business Website',
+    desc: 'An active business tracking and management website built for enterprise operational oversight.',
     icon: Cpu,
   },
   {
     title: 'Mell Research & Marketing',
     url: 'https://www.mellresearch.com/',
-    category: 'Business',
+    category: 'Business Website',
     desc: 'A live business consultancy and research firm website, designed for professional client outreach.',
     icon: Globe,
   },
   {
     title: 'QRF PNG (Quick Response Force)',
     url: 'https://www.qrfpng.com/',
-    category: 'System',
-    desc: 'A functional operational system deployment designed for rapid response and task coordination.',
+    category: 'Official Website',
+    desc: 'A fully functional official website designed for rapid response coordination and information sharing.',
     icon: ShieldCheck,
   }
 ];
@@ -59,10 +59,10 @@ const LiveWebsites = () => {
             viewport={{ once: true }}
             className="heading-m mb-6"
           >
-            Active <span className="text-white/40">Deployments</span>
+            Live <span className="text-white/40">Websites</span>
           </motion.h2>
           <p className="text-white/60 max-w-2xl font-light">
-            A selection of live, fully operational websites and systems I have architected and deployed into production environments.
+            A selection of live, fully operational websites I have architected and deployed into production environments.
           </p>
         </div>
 
