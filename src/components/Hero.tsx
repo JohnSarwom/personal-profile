@@ -17,9 +17,6 @@ const Hero = () => {
   });
 
   const y1 = useTransform(smoothProgress, [0, 1], [0, 200]);
-  const y2 = useTransform(smoothProgress, [0, 1], [0, -150]);
-  const rotateY = useTransform(smoothProgress, [0, 1], [-14, 0]);
-  const rotateX = useTransform(smoothProgress, [0, 1], [7, 0]);
   const opacity = useTransform(smoothProgress, [0, 0.5], [1, 0]);
 
   return (
