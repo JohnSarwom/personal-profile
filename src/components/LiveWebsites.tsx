@@ -8,7 +8,6 @@ const liveSites = [
     category: 'Government',
     desc: 'The active regulator for capital markets in Papua New Guinea. A high-security, official government platform.',
     icon: ShieldCheck,
-    color: '#2adeb8'
   },
   {
     title: 'Vision Real Estate PNG',
@@ -16,7 +15,6 @@ const liveSites = [
     category: 'Business',
     desc: 'A professional real estate platform built for business operations, property listings, and client engagement.',
     icon: Briefcase,
-    color: '#6366f1'
   },
   {
     title: 'Smart Track PNG',
@@ -24,7 +22,6 @@ const liveSites = [
     category: 'System',
     desc: 'An enterprise-grade tracking and management system platform with secure login and operational workflows.',
     icon: Cpu,
-    color: '#facc15'
   },
   {
     title: 'Mell Research & Marketing',
@@ -32,7 +29,6 @@ const liveSites = [
     category: 'Business',
     desc: 'A live business consultancy and research firm website, designed for professional client outreach.',
     icon: Globe,
-    color: '#f472b6'
   },
   {
     title: 'QRF PNG (Quick Response Force)',
@@ -40,7 +36,6 @@ const liveSites = [
     category: 'System',
     desc: 'A functional operational system deployment designed for rapid response and task coordination.',
     icon: ShieldCheck,
-    color: '#fb7185'
   }
 ];
 
@@ -93,10 +88,9 @@ const LiveWebsites = () => {
 
               <div className="flex items-center gap-4 mb-8">
                 <div 
-                  className="w-12 h-12 rounded-xl bg-white/5 flex items-center justify-center border border-white/10 group-hover:bg-[var(--primary)] group-hover:text-black transition-all duration-500"
-                  style={{ color: site.color }}
+                  className="w-12 h-12 rounded-xl bg-[var(--primary-glow)] border border-[var(--primary)]/20 flex items-center justify-center text-[var(--primary)] group-hover:bg-[var(--primary)] group-hover:text-black transition-all duration-500"
                 >
-                  <site.icon size={22} className="group-hover:text-black transition-colors" />
+                  <site.icon size={22} />
                 </div>
                 <div className="text-[10px] uppercase font-black tracking-[0.2em] text-white/40 bg-white/5 px-2 py-1 rounded">
                   {site.category}
