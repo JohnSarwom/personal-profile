@@ -73,7 +73,7 @@ const Hero = () => {
                 <LayoutGrid size={18} />
                 View Projects
               </a>
-              <a href="mailto:sarwomjohn@gmail.com?subject=CV Request" className="btn-secondary">
+              <a href="/John Sarwom CV - 23-04-2026.pdf" download className="btn-secondary">
                  <FileText size={18} />
                 Download CV
               </a>

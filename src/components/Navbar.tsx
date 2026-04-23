@@ -111,7 +111,8 @@ const Navbar = () => {
               </a>
             ))}
             <a
-              href="mailto:sarwomjohn@gmail.com?subject=CV Request"
+              href="/John Sarwom CV - 23-04-2026.pdf"
+              download
               className="btn-primary"
               style={{ padding: '0.6rem 1.5rem', fontSize: '0.75rem' }}
             >
@@ -157,7 +158,8 @@ const Navbar = () => {
           </a>
         ))}
         <a
-          href="mailto:sarwomjohn@gmail.com?subject=CV Request"
+          href="/John Sarwom CV - 23-04-2026.pdf"
+          download
           className="btn-primary mt-8 w-full max-w-xs"
           onClick={() => setIsOpen(false)}
         >
